@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 import { Navbar } from "./navbar";
-import {Footer} from "@/app/(home)/footer";
+import {Footer} from "@/app/(app)/(home)/footer";
 
 export default function Layout({ children }: PropsWithChildren) {
     return (
